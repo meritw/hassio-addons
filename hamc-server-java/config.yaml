@@ -61,5 +61,6 @@ schema:
   MAX_BUILD_HEIGHT: int
 map:
   - addons:rw
+  - addon_config:rw
 environment:
   EULA: "TRUE"
