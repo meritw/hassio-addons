@@ -63,7 +63,7 @@ map:
   - type: data
     read_only: false
     path: /hassio_data
-  - type: addon_config:
+  - type: addon_config
     read_only: false
     path: /data
 environment:
