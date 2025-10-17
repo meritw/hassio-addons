@@ -60,7 +60,13 @@ schema:
   FORCE_GAMEMODE: bool
   MAX_BUILD_HEIGHT: int
 map:
-  - addons:rw
-  - addon_config:rw
+  - data:
+      read_only: false
+      path: /hassio_data
+  - addons:
+      read_only: false
+  - addon_config:
+      read_only: false
+      path: /data
 environment:
   EULA: "TRUE"
